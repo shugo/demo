@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :development, :doc do
+  gem 'rspec-rails', '~> 2.0'
+end
