@@ -48,4 +48,6 @@ group :development, :doc do
   gem 'rspec-rails', '~> 2.0'
   gem 'factory_girl'
   gem 'capybara'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
